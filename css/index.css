@@ -10,7 +10,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #e0e0e070;
+    background-color: #e4e4e470;
 }
 .main{
     width: 80%;
@@ -67,7 +67,7 @@ body{
     flex-direction: row;
     list-style: none;
 }
-.link-li{
+.link-li i{
     padding: .5rem .7rem;
     font-size: 1.6rem;
     color: #fff;
@@ -206,7 +206,7 @@ body{
     }
     .link-li{
         padding: .5rem 1rem;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
     .main{
         margin: 5%;
@@ -215,5 +215,8 @@ body{
 @media (max-width: 576px) { 
     .button{
         width: 80%;
+    }
+    .link-li i{
+        font-size: 1.1rem;
     }
 }
