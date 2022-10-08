@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+:root{
+    --primary: #8c38ff;
+    --light:#eeeeee;
+    --dark:#212121;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 0 10% 1% 10%;
+    color: #666161;
+}
+.footer_name h1{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.footer_name h3{
+    font-size: .8rem;
+    font-weight: bold;
+}
+.footer_link ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+}
+.footer li{
+    padding: .5rem 1rem;
+}
+.footer_link i{
+    color: #666161;
+    font-size: 1.4rem;
+}
+@media (max-width: 992px) { 
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) { 
+    .button{
+        width: 80%;
+    }
+    .footer_name{
+        font-size: 1rem;
+    }
+}
