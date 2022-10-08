@@ -5,33 +5,35 @@
     box-sizing: border-box;
 }
 body{
-  height: 100%; 
   font-family: 'Roboto', sans-serif;
   background-color: #e4e4e470;
 }
-.contact_form{  
-  width: 460px; 
-  height: auto;
-  margin: 80px auto;
-  border-radius: 10px;  
-  padding-top: 30px;
-  padding-bottom: 20px;  
-  background-color: #fbfbfb; 
-  padding-left: 30px; 
+section{
+  width: 80%;
+  margin: 0 10% 1% 10%;
 }
-
+.contact_form{  
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: auto;
+  border: 1px solid #666161;
+  margin: 5% auto;
+  border-radius: 5px;  
+  background-color: #fbfbfb; 
+  padding: 5% 0 5% 0; 
+  box-shadow: 4px 5px 7px #666161;
+}
 
 input{
   background-color: #fbfbfb; 
-  width: 408px; 
+  width: 100%; 
   height: 40px; 
-  border-radius: 5px;  
+  border-radius: 3px;  
   border-style: solid; 
   border-width: 1px; 
   border-color: #8c38ff; 
-
   box-shadow: 4px 5px 7px #666161;
-
   margin-top: 10px;  
   padding-left: 10px;
   margin-bottom: 20px; 
@@ -40,7 +42,7 @@ input{
 
 textarea{
   background-color: #fbfbfb; 
-  width: 405px; 
+  width: 100%; 
   height: 150px; 
   border-radius: 5px;  
   border-style: solid; 
@@ -67,11 +69,12 @@ button{
   margin-bottom: 20px; 
   margin-top: 10px;   
   text-transform: uppercase;
+  box-shadow: 4px 5px 7px #666161;
   background-color: #8c38ff; 
   border-color: #8c38ff; 
   border-style: solid; 
   border-radius: 10px;  
-  width: 420px;   
+  width: 100%;   
   cursor: pointer;
 }
 
@@ -87,29 +90,29 @@ span{
 
 
 .aviso{
-  font-size: 13px;  
-  color: #0e0e0e;  
+  font-size: .7rem;  
+  color: #575656cb; 
 }
 
 
 h1{
-  font-size: 39px;  
+  font-size:2rem;  
   text-align: letf; 
   padding-bottom: 20px; 
-  color: #575656cb
+  color: #575656cb;
 }
 
 
 h3{
-  font-size: 16px; 
+  font-size: .9rem; 
   padding-bottom: 30px;
-  color: #0e0e0e;   
+  color: #575656cb;
 }
 
 
 p{
-  font-size: 14px; 
-  color: #0e0e0e; 
+  font-size: .9rem; 
+  color: #575656cb;
 }
 
 
@@ -132,5 +135,23 @@ p{
 .formulario textarea:focus{
   outline:0;
   border: 1px solid #97d848;
+}
+@media (max-width: 992px) { 
+
+}
+@media (max-width: 768px) {
+  section{
+    width: 90%;
+    margin: 5% 0% 0 5%;
+  }
+}
+@media (max-width: 576px) { 
+  section{
+    width: 96%;
+    margin: 3% 0% 0 3%;
+  }
+  button input textarea{
+    width: 80%;
+  }
 }
 
