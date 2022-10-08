@@ -217,6 +217,7 @@ body{
         width: 80%;
     }
     .link-li i{
-        font-size: 1.1rem;
+        font-size: 1.4rem;
+        padding: 1rem 0rem;
     }
 }
