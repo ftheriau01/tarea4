@@ -76,7 +76,7 @@
 }
     
 .button{
-    width: 25%;
+    width: 40%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -175,22 +175,22 @@ footer{
         font-size: 1.3rem;
     }
     .about_text p{
-        font-size: .9rem;
+        font-size: .8rem;
     }
     .bio h1{
         font-size: 1.3rem;
     }
     .bio li, i{
-        font-size: .9rem;
+        font-size: .8rem;
     }
     .bio_1 h1{
         font-size: 1.3rem;
     }
     .bio_1 h3{
-        font-size: .9rem;
+        font-size: .8rem;
     }
     .button{
-        width: 40%;
+        width: 50%;
     }
 }
 @media (max-width: 768px) {
@@ -239,6 +239,9 @@ footer{
 }
 @media (max-width: 576px) { 
     .button{
-        width: 60%;
+        width: 80%;
+    }
+    .footer_name{
+        font-size: 1rem;
     }
 }

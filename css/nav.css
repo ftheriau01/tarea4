@@ -10,9 +10,7 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-body{
-    background-color: beige;
-}
+
 .navbar {
     display: flex;
     position: relative;
