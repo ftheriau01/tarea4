@@ -118,6 +118,7 @@ body{
 .about{
     width: 80%;
     display: grid;
+    justify-content: baseline;
     grid-template-columns: 50% 1fr 1fr;
     gap: 2rem;
     font-family: 'Roboto', sans-serif;
