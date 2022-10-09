@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-:root{
+
+:root {
     --primary: #8c38ff;
-    --light:#eeeeee;
-    --dark:#212121;
+    --light: #eeeeee;
+    --dark: #212121;
 }
-*{
+
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -53,7 +55,7 @@
     color: #575656cb;
     padding: .3rem .3rem;
     font-weight: bold;
-    
+
 }
 
 .navbar-links li:hover {
@@ -79,7 +81,8 @@
 .toggle-button .bar {
     height: 3px;
     width: 100%;
-    background-color: #575656cb;;
+    background-color: #575656cb;
+    ;
     border-radius: 10px;
 }
 

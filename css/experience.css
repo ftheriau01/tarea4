@@ -1,118 +1,134 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
-body{
+
+body {
   background-color: #e4e4e470;
 }
-.prof_skill, .exp{
-    width: 90%;
-    display: grid;
-    margin: 2% 5% 2% 5%;
-    border: 1px solid #fff;
-    border-radius: px;
-    box-shadow: 5px 5px 5px #7e7a7a;
-    padding: 2rem;
+
+.prof_skill, .exp {
+  width: 90%;
+  display: grid;
+  margin: 2% 5% 2% 5%;
+  border: 1px solid #fff;
+  border-radius: px;
+  box-shadow: 0px 0px 5px 5px #7e7a7a;
+  padding: 2rem;
+  border-radius: 5px;
+  background-color: #fff;
 }
-.work_exp> h1{
-    width: 90%;
-    margin: 2% 5% 0% 5%;
-    text-align: center;
-    color: #666161;
-    font-size: 1.7rem;
-    font-weight: bold;
-    padding-left: 1rem;
-    text-shadow: 3px 5px 5px #666161;
-    letter-spacing: 2px;
+
+.work_exp>h1 {
+  width: 90%;
+  margin: 2% 5% 0% 5%;
+  text-align: center;
+  color: #666161;
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding-left: 1rem;
+  text-shadow: 3px 5px 5px #666161;
+  letter-spacing: 2px;
 }
+
 #progressbar {
-    padding: 3px;
-  }
-  
-  #progressbar>.html {
-    background-color: orange;
-    width: 60%;
-    height: 50%;
-    border-radius: 10px;
-    border: 1px solid #fff;
-    box-shadow: 3px 5px 5px #7e7a7a;
-  }
-  #progressbar>.css{
-    background-color: red;
-    width: 80%;
-    height: 50%;
-    border-radius: 10px;
-    border-radius: 10px;
-    border: 1px solid #fff;
-    box-shadow: 3px 5px 5px #7e7a7a;
-  }
-  #progressbar>.php{
-    background-color: purple;
-    width: 30%;
-    height: 50%;
-    border-radius: 10px;
-    border-radius: 10px;
-    border: 1px solid #fff;
-    box-shadow: 3px 5px 5px #7e7a7a;
-  }
-  #progressbar>.js{
-    background-color: blue;
-    width: 20%;
-    height: 50%;
-    border-radius: 10px;
-    border-radius: 10px;
-    border: 1px solid #fff;
-    box-shadow: 3px 5px 5px #7e7a7a;
-  }
-  #progressbar>.sql{
-    background-color:green;
-    width: 40%;
-    height: 50%;
-    border-radius: 10px; 
-    border-radius: 10px;
-    border: 1px solid #fff;
-    box-shadow: 3px 5px 5px #7e7a7a;
-  }
-  .prof_skill> div p{
-    font-size: 1rem;
-    font-weight: bold;
-    padding-left: 1rem;
-    color: #fff;
-    text-align: center;
-    text-shadow: 3px 5px 5px #666161;
-  }
-  .span{
-    color: #666161;
-    font-size: 1.2em;
-    font-weight: bold;
-    padding-left: 1rem;
-    letter-spacing: 2px;
-  }
-  .exp-conte{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    
-  }
-  .exp-conte>h1{
-    font-size: 1.5em;
-    color: #666161;
-    font-weight: bold;
-    letter-spacing: 2px;
-    text-shadow: 3px 5px 5px #666161;
-  }
-  .exp-conte>h3{
-    font-size: 1em;
-    color: #666161;
-    font-weight: bold;
-    letter-spacing: 2px;
-    text-shadow: 1px 3px 3px #666161;
-  }
-  h5{
-    font-size: .7em;
-    color: #666161;
-    font-weight: bold;
-    letter-spacing: 2px;
-    text-shadow: 1px 3px 3px #666161;
-  }
+  padding: 3px;
+}
+
+#progressbar>.html {
+  background-color: orange;
+  width: 60%;
+  height: 50%;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  box-shadow: 3px 5px 5px #7e7a7a;
+}
+
+#progressbar>.css {
+  background-color: red;
+  width: 80%;
+  height: 50%;
+  border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  box-shadow: 3px 5px 5px #7e7a7a;
+}
+
+#progressbar>.php {
+  background-color: purple;
+  width: 30%;
+  height: 50%;
+  border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  box-shadow: 3px 5px 5px #7e7a7a;
+}
+
+#progressbar>.js {
+  background-color: blue;
+  width: 20%;
+  height: 50%;
+  border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  box-shadow: 3px 5px 5px #7e7a7a;
+}
+
+#progressbar>.sql {
+  background-color: green;
+  width: 40%;
+  height: 50%;
+  border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  box-shadow: 3px 5px 5px #7e7a7a;
+}
+
+.prof_skill>div p {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-left: 1rem;
+  color: #fff;
+  text-align: center;
+  text-shadow: 3px 5px 5px #666161;
+}
+
+.span {
+  color: #666161;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-left: 1rem;
+  letter-spacing: 2px;
+}
+
+.exp-conte {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.exp-conte>h1 {
+  font-size: 1.5em;
+  color: #666161;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 3px 5px 5px #666161;
+}
+
+.exp-conte>h3 {
+  font-size: 1em;
+  color: #666161;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 1px 3px 3px #666161;
+}
+
+h5 {
+  font-size: .7em;
+  color: #666161;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 1px 3px 3px #666161;
+}

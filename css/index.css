@@ -1,33 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-:root{
+
+:root {
     --primary: #8c38ff;
-    --light:#eeeeee;
-    --dark:#212121;
+    --light: #eeeeee;
+    --dark: #212121;
 }
-*{
+
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #e4e4e470;
 }
-.main{
+
+.main {
     width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
-    margin: 3%  10% 0% 10%;
+    margin: 3% 10% 0% 10%;
     background-image: url("/img/main-bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 3px 5px 5px #666161;
-    
+
 }
-.foto{
+
+.foto {
     margin: 1rem;
     display: flex;
     justify-content: center;
@@ -38,12 +43,14 @@ body{
     width: 30vh;
     height: 30vh;
 }
-.foto>img{
+
+.foto>img {
     border-radius: 3px;
     width: 100%;
     height: 100%;
 }
-.name{
+
+.name {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,54 +60,62 @@ body{
     color: #fff;
     font-weight: bolder;
 }
-.name h1{
-    font-size: 2.5rem; 
+
+.name h1 {
+    font-size: 2.5rem;
 }
-.name h3{
-    font-size: 1rem; 
+
+.name h3 {
+    font-size: 1rem;
     color: #fff;
 }
-.link ul{ 
+
+.link ul {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     list-style: none;
 }
-.link-li i{
+
+.link-li i {
     padding: .5rem .7rem;
     font-size: 1.6rem;
     color: #fff;
 }
-.link-li :hover{
+
+.link-li :hover {
     color: var(--primary);
     transition: .3s ease-in;
 }
-    
-.button{
+
+.button {
     width: 40%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    padding : 1rem 1rem;
-    
+    padding: 1rem 1rem;
+
 }
-.button-cv{
+
+.button-cv {
     border: 3px solid var(--light);
     color: var(--light);
-    background:none;
+    background: none;
     border-radius: 6px;
     font-size: .7rem;
     font-weight: bold;
-    padding: .7rem ;
+    padding: .7rem;
     box-shadow: 4px 5px 7px #666161;
     cursor: pointer;
 }
-.button-cv:hover{
+
+.button-cv:hover {
     background-color: var(--dark);
 }
-.button-cont{
+
+.button-cont {
     border: 3px solid var(--light);
     background-color: var(--primary);
     padding: .7rem;
@@ -112,10 +127,12 @@ body{
     color: var(--light);
     cursor: pointer;
 }
-.button-cont:hover{
+
+.button-cont:hover {
     background-color: var(--dark);
 }
-.about{
+
+.about {
     width: 80%;
     display: grid;
     justify-content: baseline;
@@ -126,98 +143,122 @@ body{
     box-shadow: 3px 5px 5px #666161;
     border: .6px solid #797777d0;
     padding: 1rem;
-    
+
 }
-.about h1{
+
+.about h1 {
     font-size: 2rem;
     color: #666161;
 }
-.about >ul,li,h3,i{
+
+.about>ul, li, h3, i {
     color: #666161;
     font-size: 1rem;
     list-style: none;
 }
-.about p{
+
+.about p {
     font-size: 1.1rem;
     color: #666161;
 }
-.about , i{
+
+.about, i {
     padding-right: .4rem;
     font-size: 1.1rem;
     font-weight: bold;
 }
-@media (max-width: 992px) { 
-    .about_text h1{
+
+@media (max-width: 992px) {
+    .about_text h1 {
         font-size: 1.3rem;
     }
-    .about_text p{
+
+    .about_text p {
         font-size: .8rem;
     }
-    .bio h1{
+
+    .bio h1 {
         font-size: 1.3rem;
     }
-    .bio li, i{
+
+    .bio li, i {
         font-size: .8rem;
     }
-    .bio_1 h1{
+
+    .bio_1 h1 {
         font-size: 1.3rem;
     }
-    .bio_1 h3{
+
+    .bio_1 h3 {
         font-size: .8rem;
     }
-    .button{
+
+    .button {
         width: 50%;
     }
 }
+
 @media (max-width: 768px) {
-    .main{
+    .main {
         width: 90%;
     }
-    .about{
+
+    .about {
         width: 90%;
         margin: 0 5% 5% 5%;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    .about_text{
+
+    .about_text {
         grid-column: 1/3;
         font-size: 1rem;
     }
-    .bio{
+
+    .bio {
         grid-column: 1/2;
         font-size: .4rem;
     }
-    .bio_1{
+
+    .bio_1 {
         grid-column: 2/3;
         font-size: .4rem;
     }
-    .button{
+
+    .button {
         width: 50%;
     }
-    .button-cont, .button-cv{
-        padding: .5rem; 
+
+    .button-cont, .button-cv {
+        padding: .5rem;
         border: 2px solid var(--light);
         font-size: .6rem;
     }
-    .name h1{
+
+    .name h1 {
         font-size: 2.1rem;
     }
-    .name h3{
+
+    .name h3 {
         font-size: 1rem;
     }
-    .link-li{
+
+    .link-li {
         padding: .5rem 1rem;
         font-size: 1.1rem;
     }
-    .main{
+
+    .main {
         margin: 5%;
     }
 }
-@media (max-width: 576px) { 
-    .button{
+
+@media (max-width: 576px) {
+    .button {
         width: 80%;
     }
-    .link-li i{
+
+    .link-li i {
         font-size: 1.4rem;
         padding: 1rem 0rem;
     }
