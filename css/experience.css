@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.prof_skill{
+    width: 90%;
+    display: grid;
+    margin: 2% 5% 0% 5%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 5px 7px 7px #7e7a7a;
+}
+#progressbar {
+    
+    padding: 3px;
+  }
+  
+  #progressbar>.html {
+    background-color: orange;
+    width: 60%;
+    height: 20px;
+    border-radius: 10px;
+  }
+  #progressbar>.css{
+    background-color: red;
+    width: 80%;
+    height: 20px;
+    border-radius: 10px;
+  }
+  #progressbar>.php{
+    background-color: purple;
+    width: 30%;
+    height: 20px;
+    border-radius: 10px;
+  }
+  #progressbar>.js{
+    background-color: blue;
+    width: 20%;
+    height: 20px;
+    border-radius: 10px;
+  }
+  #progressbar>.sql{
+    background-color:green;
+    width: 40%;
+    height: 20px;
+    border-radius: 10px; 
+  }
