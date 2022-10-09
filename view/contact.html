@@ -33,67 +33,57 @@
         </div>
       </nav>
       <section>
-        <div class="contact_form">
-
-          <div class="formulario">      
-            <h1>Formulario de contacto</h1>
-              <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
-      
-      
-                <form action="submeter-formulario.php" method="post">       
-      
-                  
-                      <p>
-                        <label for="nombre" class="colocar_nombre">Nombre
-                          <span class="obligatorio">*</span>
-                        </label>
-                          <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
-                      </p>
-                    
-                      <p>
-                        <label for="email" class="colocar_email">Email
-                          <span class="obligatorio">*</span>
-                        </label>
-                          <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
-                      </p>
-                  
-                      <p>
-                        <label for="telefone" class="colocar_telefono">Teléfono
-                        </label>
-                          <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
-                      </p>    
-                    
-                      <p>
-                        <label for="website" class="colocar_website">Sitio web
-                        </label>
-                          <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
-                      </p>    
-                    
-                      <p>
-                        <label for="asunto" class="colocar_asunto">Asunto
-                          <span class="obligatorio">*</span>
-                        </label>
-                          <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
-                      </p>    
-                    
-                      <p>
-                        <label for="mensaje" class="colocar_mensaje">Mensaje
-                          <span class="obligatorio">*</span>
-                        </label>                     
-                                          <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
-                                      </p>                    
-                    
-                      <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
-      
-                      <p class="aviso">
-                        <span class="obligatorio"> * </span>los campos son obligatorios.
-                      </p>          
-                  
-                </form>
-          </div>  
+        <div class="contact_row">
+          <h1 class="contact_h1">Formulario de contacto</h1>
         </div>
-      
-      
+        <div class="contact_form">
+          <form class="form" action="maen.php" method="post" for="contact">
+              <div class="contact_r">
+                <div>
+                  <label class="contact_label" for="">Nombre</label>
+                  <input class="contact_input" type="text" name="name" id="name" required>
+                  <span>*campo obligatorio</span>
+                </div>
+                <div>
+                  <label class="contact_label" for="">Correo</label>
+                  <input class="contact_input" type="mail" name="mail" id="mail" required>
+                  <span>*campo obligatorio</span>
+                </div>
+                <div>
+                  <label class="contact_label" for="">Asunto</label>
+                  <input class="contact_input" type="text" name="asunt" id="asunt" required>
+                  <span>*campo obligatorio</span>
+                </div>
+              </div>
+              <div class="contact_l">
+                <div>
+                  <label class="contact_label" for="">Apellido</label>
+                  <input class="contact_input"  type="text" name="apellido" id="apellido" required>
+                  <span>*campo obligatorio</span>
+                </div>
+                <div>
+                  <label class="contact_label" for="">Telefono</label>
+                  <input class="contact_input" type="number" name="tel" id="tele" required>
+                  <span>*campo obligatorio</span>
+                </div>
+                <div>
+                  <label class="contact_label" for="">Donde nos escribe?</label>
+                  <select id="Provicias" class="contact_select" required>
+                    <option value="" disabled>--Selecione una opcion--</option>
+                    <option value="San Jose">San Jose</option>
+                    <option value="Alajuela">Alajuela</option>
+                    <option value="Heredia">Heredia</option>
+                    <option value="Cartago">Cartago</option>
+                    <option value="spider">Spider</option>
+                    <option value="goldfish">Goldfish</option>
+                  </select>
+                </div>
+              </div>
+              <div class="contact_row">
+                <button type="submit" class="contact_button">Enviar</button>
+              </div>
+          </form>         
+        </div>
       </section>
       <footer class="footer">
         <div class="footer_name">
