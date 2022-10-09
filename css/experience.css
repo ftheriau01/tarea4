@@ -11,13 +11,14 @@ body {
 .prof_skill, .exp {
   width: 90%;
   display: grid;
-  margin: 2% 5% 2% 5%;
+  margin: 2% 5% 3% 5%;
   border: 1px solid #fff;
   border-radius: px;
   box-shadow: 0px 0px 5px 5px #7e7a7a;
   padding: 2rem;
   border-radius: 5px;
   background-color: #fff;
+  
 }
 
 .work_exp>h1 {
