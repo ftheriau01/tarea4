@@ -3,13 +3,16 @@
     padding: 0%;
     box-sizing: border-box;
 }
-.prof_skill{
+body{
+  background-color: #e4e4e470;
+}
+.prof_skill, .exp{
     width: 90%;
     display: grid;
-    margin: 2% 5% 0% 5%;
-    border: 1px solid #000;
+    margin: 2% 5% 2% 5%;
+    border: 1px solid #fff;
     border-radius: px;
-    box-shadow: 5px 7px 7px #7e7a7a;
+    box-shadow: 5px 5px 5px #7e7a7a;
     padding: 2rem;
 }
 .work_exp> h1{
@@ -17,7 +20,7 @@
     margin: 2% 5% 0% 5%;
     text-align: center;
     color: #666161;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: bold;
     padding-left: 1rem;
     text-shadow: 3px 5px 5px #666161;
@@ -77,12 +80,39 @@
     padding-left: 1rem;
     color: #fff;
     text-align: center;
+    text-shadow: 3px 5px 5px #666161;
   }
   .span{
     color: #666161;
-    font-size: 1.2rem;
+    font-size: 1.2em;
     font-weight: bold;
     padding-left: 1rem;
-    text-shadow: 3px 5px 5px #666161;
     letter-spacing: 2px;
+  }
+  .exp-conte{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+  }
+  .exp-conte>h1{
+    font-size: 1.5em;
+    color: #666161;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 3px 5px 5px #666161;
+  }
+  .exp-conte>h3{
+    font-size: 1em;
+    color: #666161;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 1px 3px 3px #666161;
+  }
+  h5{
+    font-size: .7em;
+    color: #666161;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 1px 3px 3px #666161;
   }
