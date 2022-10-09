@@ -23,9 +23,11 @@ section{
 }
 .contact_h1{
   font-size: 2rem;
+  font-weight: bold;
   text-align: center;
   color: var(--light);
   text-shadow: 4px 5px 7px var(--light); 
+  padding: .5rem;
 }
 .form{
   display: grid;
